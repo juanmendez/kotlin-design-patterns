@@ -1,0 +1,36 @@
+group 'info.juanmendez.kotlin.designpatterns'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = "1.3.11"
+
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: "java"
+apply plugin: "kotlin"
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+
+    test.useJUnitPlatform()
+    testImplementation 'org.mockito:mockito-core:2.23.0'
+    testImplementation("org.junit.jupiter:junit-jupiter:5.4.2")
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
