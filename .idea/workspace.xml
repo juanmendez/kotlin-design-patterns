@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb626548-197b-4abf-a6dd-b81706567688" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/info/juanmendez/kotlin/designpatterns/structural/FacadePractice.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/info/juanmendez/kotlin/designpatterns/structural/FacadePracticeTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +25,9 @@
         <projects_view />
       </state>
     </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="kotlinDesignPatterns" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +51,7 @@
   <component name="PropertiesComponent">
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -76,7 +78,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.FacadePracticeTest.verify if customer is eligible">
+  <component name="RunManager" selected="Gradle.BodyBuilderTest">
+    <configuration name="BodyBuilderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;info.juanmendez.kotlin.designpatterns.creation.BodyBuilderTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="BodyBuilderTest.assert we can create instance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -97,12 +119,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BuilderTest.assert we can create instance" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FacadePracticeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;info.juanmendez.kotlin.designpatterns.BuilderTest.assert we can create instance&quot;" />
+        <option name="scriptParameters" value="--tests &quot;info.juanmendez.kotlin.designpatterns.structural.FacadePracticeTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -159,12 +181,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BodyBuilderTest" />
+        <item itemvalue="Gradle.FacadePracticeTest" />
         <item itemvalue="Gradle.FacadePracticeTest.verify if customer is eligible" />
         <item itemvalue="Gradle.BodyBuilderTest.assert we can create instance" />
         <item itemvalue="Gradle.InstanceTest.assert we can create instance" />
-        <item itemvalue="Gradle.BuilderTest.assert we can create instance" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
