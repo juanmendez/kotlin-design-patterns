@@ -14,7 +14,7 @@ class BodyBuilderTest {
             .create()
 
         assertAll(
-            "body builder does the following",
+            "body builder perfomrs the following",
             {
                 assertTrue(bodyBuilder.militaryPress)
             }, {
