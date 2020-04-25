@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb626548-197b-4abf-a6dd-b81706567688" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="eb626548-197b-4abf-a6dd-b81706567688" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/info/juanmendez/kotlin/designpatterns/creation/BodyBuilderTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/info/juanmendez/kotlin/designpatterns/creation/BodyBuilderTest.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +72,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37941176" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
@@ -90,19 +92,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Gradle.kotlin-design-patterns [test]">
+  <component name="RunManager" selected="Gradle.FacadePracticeTest">
     <configuration name="BodyBuilderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,10 +194,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FacadePracticeTest" />
         <item itemvalue="Gradle.kotlin-design-patterns [test]" />
         <item itemvalue="Gradle.Tests in 'info.juanmendez.kotlin.designpatterns'" />
         <item itemvalue="Gradle.BodyBuilderTest" />
-        <item itemvalue="Gradle.FacadePracticeTest" />
         <item itemvalue="Gradle.FacadePracticeTest.verify if customer is eligible" />
       </list>
     </recent_temporary>
@@ -237,5 +227,51 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="202" key="#Project_Structure" timestamp="1587857829763">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="202" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1587857829763" />
+    <state x="689" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587857839053">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="689" y="443" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1587857839053" />
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1587857893718">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893718" />
+    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1587857893717">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893717" />
+    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1587857893717">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893717" />
+    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1587857893718">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893718" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1587857893719">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893719" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center" timestamp="1587857893719">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893719" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left" timestamp="1587857893719">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893719" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right" timestamp="1587857893719">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1587857893719" />
+    <state x="505" y="250" key="search.everywhere.popup" timestamp="1587857469666">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1587857469666" />
   </component>
 </project>
